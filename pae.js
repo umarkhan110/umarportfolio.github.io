@@ -1,25 +1,4 @@
 
-FB.init({
-appId:'715592472823324',cookie:true,
-status:true,
-xfbml:true
-});
-
-function FacebookInviteFriends()
-{
-
-FB.ui({
-method: 'apprequests',
-message: 'Your Message diaolog'
-});
-
-}
-
-
-if (top.location!= self.location){
-top.location = self.location
-}
-
 
 $(document).ready(function(){
     $(window).scroll(function(){
